@@ -12,14 +12,14 @@ interface StyledExpandIconWrapperProps {
 }
 export declare const StyledExpandIconWrapper: import("@emotion/styled").StyledComponent<{
     theme?: import("@emotion/react").Theme | undefined;
-    as?: import("react").ElementType<any> | undefined;
+    as?: import("react").ElementType<any, keyof import("react").JSX.IntrinsicElements> | undefined;
 } & StyledExpandIconWrapperProps, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, {}>;
 export declare const StyledExpandIcon: import("@emotion/styled").StyledComponent<{
     theme?: import("@emotion/react").Theme | undefined;
-    as?: import("react").ElementType<any> | undefined;
+    as?: import("react").ElementType<any, keyof import("react").JSX.IntrinsicElements> | undefined;
 } & StyledExpandIconProps, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, {}>;
 export declare const StyledExpandIconCollapsed: import("@emotion/styled").StyledComponent<{
     theme?: import("@emotion/react").Theme | undefined;
-    as?: import("react").ElementType<any> | undefined;
+    as?: import("react").ElementType<any, keyof import("react").JSX.IntrinsicElements> | undefined;
 }, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, {}>;
 export {};

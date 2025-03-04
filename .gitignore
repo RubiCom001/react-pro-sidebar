@@ -11,8 +11,7 @@ node_modules
 # production
 build
 #dist
-storybook-static
- 
+
 # vs code config
 .vscode
 

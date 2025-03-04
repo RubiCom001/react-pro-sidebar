@@ -1,6 +1,6 @@
 import React from 'react';
 import { CSSObject } from '@emotion/styled';
-declare type BreakPoint = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | 'always';
+type BreakPoint = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | 'always';
 export interface SidebarProps extends React.HTMLAttributes<HTMLHtmlElement> {
     /**
      * width of the sidebar

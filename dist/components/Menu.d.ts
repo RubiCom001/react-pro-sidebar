@@ -7,7 +7,7 @@ export interface MenuItemStylesParams {
     isSubmenu: boolean;
     open?: boolean;
 }
-export declare type ElementStyles = CSSObject | ((params: MenuItemStylesParams) => CSSObject | undefined);
+export type ElementStyles = CSSObject | ((params: MenuItemStylesParams) => CSSObject | undefined);
 export interface MenuItemStyles {
     root?: ElementStyles;
     button?: ElementStyles;

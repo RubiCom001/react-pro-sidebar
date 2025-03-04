@@ -16,7 +16,7 @@ interface SubMenuContentProps extends React.HTMLAttributes<HTMLDivElement> {
   children?: React.ReactNode;
 }
 
-let timer: NodeJS.Timer;
+let timer: NodeJS.Timeout;
 
 const StyledSubMenuContent = styled.div<SubMenuContentProps>`
   display: none;
@@ -39,13 +39,13 @@ const StyledSubMenuContent = styled.div<SubMenuContentProps>`
   ${({ collapsed, firstLevel, openWhenCollapsed }) =>
     collapsed && firstLevel
       ? `
-    
+
       padding-left: 0px;
       width: 200px;
       border-radius: 4px;
       height: auto!important;
-      display: block!important;     
-      transition: none!important;     
+      display: block!important;
+      transition: none!important;
       visibility: ${openWhenCollapsed ? 'visible' : 'hidden'};
      `
       : `

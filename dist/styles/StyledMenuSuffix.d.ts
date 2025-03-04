@@ -8,6 +8,6 @@ interface StyledMenuSuffixProps {
 }
 export declare const StyledMenuSuffix: import("@emotion/styled").StyledComponent<{
     theme?: import("@emotion/react").Theme | undefined;
-    as?: import("react").ElementType<any> | undefined;
+    as?: import("react").ElementType<any, keyof import("react").JSX.IntrinsicElements> | undefined;
 } & StyledMenuSuffixProps, import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, {}>;
 export {};

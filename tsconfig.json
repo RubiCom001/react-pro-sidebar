@@ -13,6 +13,6 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["src", "tests", "storybook", "setupTests.ts"],
+  "include": ["src", "tests", "setupTests.ts"],
   "exclude": ["node_modules", "dist"]
 }
